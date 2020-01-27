@@ -30,7 +30,16 @@ TODO list:
 - [ ] ...more coming?
 
 # Hardware requirement
-The necessary hardware and equipment for flashing firmware and the device preparation process is best described by the [Zigbee2mqtt](https://www.zigbee2mqtt.io/) project whos community develops the custom Z-Stack coordinator firmware that zigpy-cc requires. They have intructions for several alternative metods on how to initially flash their Z-Stack coordinator firmware on a new CC253x based adapter that does not have a bootloader. They also have a FAQ and knowledgebase that can be useful for working with the supported hardware adapters/equipment and Zigbee devices.
+Requires a Texas Instruments CC253x / CC26x2R / CC13x2 / CC2538 based devices flashed with custom firmware from the [Zigbee2mqtt](https://www.zigbee2mqtt.io/) project.
+
+  - [CC2531 USB stick hardware flashed with custom Z-Stack coordinator firmware from the Zigbee2mqtt project](https://www.zigbee2mqtt.io/getting_started/what_do_i_need.html)
+  - [CC2530 + CC2591 USB stick hardware flashed with custom Z-Stack coordinator firmware from the Zigbee2mqtt project](https://www.zigbee2mqtt.io/getting_started/what_do_i_need.html)
+  - [CC2530 + CC2592 dev board hardware flashed with custom Z-Stack coordinator firmware from the Zigbee2mqtt project](https://www.zigbee2mqtt.io/getting_started/what_do_i_need.html)
+  - [CC2652R dev board hardware flashed with custom Z-Stack coordinator firmware from the Zigbee2mqtt project](https://www.zigbee2mqtt.io/getting_started/what_do_i_need.html)
+  - [CC1352P-2 dev board hardware flashed with custom Z-Stack coordinator firmware from the Zigbee2mqtt project](https://www.zigbee2mqtt.io/getting_started/what_do_i_need.html)
+  - [CC2538 + CC2592 dev board hardware flashed with custom Z-Stack coordinator firmware from the Zigbee2mqtt project](https://www.zigbee2mqtt.io/getting_started/what_do_i_need.html)  
+
+The necessary radio chip hardware and equipment for flashing firmware and the device preparation process is best described by the [Zigbee2mqtt](https://www.zigbee2mqtt.io/) project whos community develops the custom Z-Stack coordinator firmware that zigpy-cc requires. The Zigbee2mqtt project has intructions for several alternative metods on how to initially flash their special Z-Stack coordinator firmware on a new CC253x, CC26x2R, CC13x2, or CC2538 based USB adapters and development boards that does not have a bootloader. They also have a FAQ and knowledgebase that can be useful for working with the supported hardware adapters/equipment and Zigbee devices.
 
 - https://www.zigbee2mqtt.io/information/supported_adapters.html
 - https://www.zigbee2mqtt.io/getting_started/what_do_i_need.html
